@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap');
 
 .header {
-    display: inline-flex; /* Use inline-flex to adjust width based on content */
+    display: inline-flex;
     padding: 10px 20px;
     border: 2px solid hsl(217, 16%, 45%);
     border-radius: 10px;
-    align-items: center; /* Center content vertically */
+    align-items: center;
     font-family: 'Barlow Semi Condensed', sans-serif;
     margin-top: 30px;
 }
@@ -96,8 +96,8 @@
     background-color: white;
     border: 25px solid hsl(40, 84%, 53%);
     border-radius: 50%;
-    padding: 70px; /* Adjust as needed */
-    margin-top: 150px; /* Adjust as needed */
+    padding: 70px; 
+    margin-top: 150px; 
     margin-right: 600px;
   }
   
@@ -105,7 +105,7 @@
     background-color: white;
     border: 25px solid hsl(230, 89%, 65%);
     border-radius: 50%;
-    padding: 70px; /* Adjust as needed */
+    padding: 70px; 
     position: absolute;
     margin-top: 150px;
     margin-left: 600px;
@@ -127,7 +127,7 @@
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: 600;
     position: absolute;
-    margin-top: 300px; /* Adjust as needed */
+    margin-top: 300px; 
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
     font-size: 20px;
@@ -146,7 +146,7 @@
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: 600;
     position: absolute;
-    margin-top: 600px; /* Adjust as needed */
+    margin-top: 600px; 
     margin-left: 1250px;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
@@ -181,7 +181,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7); /* Add dimming effect */
+    background-color: rgba(0, 0, 0, 0.7); 
     z-index: 1000;
   }
   
