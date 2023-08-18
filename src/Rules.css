@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap');
+
+.rules {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    height: 450px;
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    z-index: 2000; /* Place it above the blurred background */
+  }
+
+  .image-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+  }
+
+
+.RulesImg {
+    margin-top: 50px; /* Adjust as needed */
+    position: absolute;
+    width: 300px; /* Adjust width as needed */
+    height: 300px;
+  }
+
+.header1 {
+    margin-top: 0; 
+    text-align: left;
+    font-weight: 700;
+    line-height: 1;
+    margin-right: 200px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+
+  .exit-button {
+
+    position: absolute;
+    margin-top: -60px; 
+    margin-left: 220px;
+    border: none; /* Remove border */
+    background: none;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 30px;
+    color: lightgrey;
+    cursor: pointer;
+  }

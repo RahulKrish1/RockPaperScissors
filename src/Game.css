@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap');
+
+.header {
+    display: inline-flex; /* Use inline-flex to adjust width based on content */
+    padding: 10px 20px;
+    border: 2px solid hsl(217, 16%, 45%);
+    border-radius: 10px;
+    align-items: center; /* Center content vertically */
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin-top: 30px;
+}
+
+.header h1 {
+    margin: 0; 
+    text-align: left;
+    color: white;
+    font-weight: 700;
+    line-height: 1;
+    margin-right: 200px;
+}
+
+.header text {
+    margin-left: 200px; 
+    color: hsl(229, 64%, 46%);
+    font-weight: 600;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 40px;
+}
+
+.header text span.score {
+    font-size: 40px; 
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  .buttons .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    
+  }
+  
+  .buttons .button:first-child {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 300px;
+    border: 25px solid hsl(40, 84%, 53%);
+  }
+  
+  .buttons .button:nth-child(2) {
+    margin-top: 50px;
+    margin-right: 300px;
+    border: 25px solid hsl(349, 70%, 56%);
+  }
+  
+  .buttons .button:nth-child(3) {
+    margin-top: 70px;
+    border: 25px solid hsl(230, 89%, 65%);
+  }
+  
+  .buttons .button img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .buttons .button:hover {
+    transform: scale(1.1);
+  }
+
+  .choice-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .choice {
+    background-color: white;
+    border: 25px solid hsl(40, 84%, 53%);
+    border-radius: 50%;
+    padding: 70px; /* Adjust as needed */
+    margin-top: 150px; /* Adjust as needed */
+    margin-right: 600px;
+  }
+  
+  .displayed-image {
+    background-color: white;
+    border: 25px solid hsl(230, 89%, 65%);
+    border-radius: 50%;
+    padding: 70px; /* Adjust as needed */
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 600px;
+  }
+
+  .result {
+    color: white;
+    font-size: 50px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    position: absolute;
+    margin-top: 200px;
+  }
+
+  .restore-button {
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 50px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    margin-top: 300px; /* Adjust as needed */
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    font-size: 20px;
+  }
+  
+  .restore-button:hover {
+    transform: scale(1.1);
+  }
+
+  .Rules-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid hsl(217, 16%, 45%);
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    margin-top: 600px; /* Adjust as needed */
+    margin-left: 1250px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    font-size: 20px;
+  }
+  
+  .Rules-button:hover {
+    transform: scale(1.1);
+  }
+
+  .userPick {
+    color: white;
+    font-size: 30px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    position: absolute;
+    margin-top: 75px;
+    margin-right: 600px;
+  }
+
+  .housePick {
+    color: white;
+    font-size: 30px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 600px;
+  }
+
+  .blurred-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Add dimming effect */
+    z-index: 1000;
+  }
+  
